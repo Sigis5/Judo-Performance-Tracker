@@ -5,7 +5,7 @@ fights = []
 
 print("--- JUDO PERFORMANCE TRACKER v1 ---")
 
-# 2. A simple loop to let you enter multiple fights
+# 2. A simple loop to let you enter multiple fights.
 while True:
     result = input("Result (Win/Loss) or type 'exit' to finish: ").capitalize()
     if result == 'Exit':
