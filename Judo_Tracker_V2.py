@@ -3,7 +3,7 @@ import os
 
 FILENAME = "judo_data.csv"
 
-# 1. LOAD DATA: Check if we have a saved file
+# 1. LOAD DATA: Check if we have a saved file.
 if os.path.exists(FILENAME):
     df = pd.read_csv(FILENAME)
     print(f"--- Loaded {len(df)} fights from history ---")
